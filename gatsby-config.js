@@ -1,9 +1,10 @@
 module.exports = {
+  plugins: ['gatsby-plugin-postcss'],
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
-    siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
+    title: `Ideopoly`,
+    description: `The new way to create, curate and evolve big ideas.`,
+    author: `Troy Hitch`,
+    siteUrl: `https://ideopoly.com`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -28,11 +29,11 @@ module.exports = {
         // https://css-tricks.com/meta-theme-color-and-trickery/
         // theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/logo512.png`, // This path is relative to the root of the site.
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
+    // `gatsby-plugin-offline`, 
   ],
 }
