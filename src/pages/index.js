@@ -14,6 +14,8 @@ const IndexPage = () => (
       formats={["auto", "webp", "avif"]}
       alt="Ideopoly logo"
       style={{ marginBottom: `1.45rem` }}
+      placeholder="none"
+      fadeIn={false}
     />
     <div className="text-center text-white">Already have an account? Log in <a className="underline" href="https://app.ideopoly.com/">here</a></div>
     <div className="text-center text-white">Want to join the alpha test? Request an account <a className="underline" href="mailto:troy@ideopoly.com?subject=Invite me to the Ideopoly alpha test!">here</a></div>
